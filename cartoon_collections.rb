@@ -10,7 +10,7 @@ end
 def list_dwarves(array)
   arry.each_with_index do |array|
     count = 1
-    puts "#{count}"
+    puts "#{count}. *"
     count += 1
   # Use `each_with_index` to enumerate over the provided array
   #
