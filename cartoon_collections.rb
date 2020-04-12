@@ -8,8 +8,8 @@ end
 end
 
 def list_dwarves(array)
+  count = 1
   array.each_with_index do |array|
-    count = 1
     puts "#{count}. *#{array.capitalize}"
     count += 1
   end
